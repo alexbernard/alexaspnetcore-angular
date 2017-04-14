@@ -2,7 +2,8 @@
   "name": "aspnetcore_angular_sample",
   "version": "0.0.0",
   "scripts": {
-    "test": "karma start ClientApp/test/karma.conf.js"
+    "test": "karma start ClientApp/test/karma.conf.js",
+    "start": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "@angular/common": "^2.4.5",
@@ -57,6 +58,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
-    "karma-webpack": "^1.8.0"
+    "karma-webpack": "^1.8.0",
+    "webpack": "^2.4.1"
   }
 }
